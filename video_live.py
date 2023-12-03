@@ -6,7 +6,7 @@ import math
 cap = cv2.VideoCapture(0)
 cap.set(4, 720)
 
-model = YOLO("best_v1.pt")
+model = YOLO("best_final.pt")
 
 class_subham = ["rippen"]
 
